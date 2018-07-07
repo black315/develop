@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
 
 class TestCase {
 
@@ -43,6 +44,10 @@ class WordTest {
         
         }
         if(list.size() == 0) return;
+
+        System.out.println();
+
+        Collections.shuffle(list);
 
         for(TestCase testCase: list) {
             
